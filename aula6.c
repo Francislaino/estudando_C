@@ -11,11 +11,17 @@ int main() {
         i++;
     }*/
 
-    do
+    /*do
     {
         printf("%d ", i);
         i++;
-    } while (i<=10);
+    } while (i<=10);*/
+
+    for (i=1; i<=10; i++)
+    {
+        printf("%d\n", i);
+    }
+    
     
     
 
