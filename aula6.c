@@ -17,10 +17,33 @@ int main() {
         i++;
     } while (i<=10);*/
 
-    for (i=1; i<=10; i++)
+    /*for (i=1; i<=10; i++)
     {
         printf("%d\n", i);
-    }
+
+        if(i==5){
+            break;  
+        }
+    }*/
+    
+    /*for ( i = 1; i <= 10; i++)
+    {
+        if(i==5) {
+            continue;
+        }
+
+        printf("%d ", i);
+    }*/
+    
+    do{
+        printf("%d ", i);
+        i++;
+        if ( i == 5){ 
+            continue;
+        }
+
+    } while (i <= 10);
+    
     
     
     
